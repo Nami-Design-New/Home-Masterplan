@@ -1,0 +1,419 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable= no shrink-to-fit= no">
+    <title>Home Masterplane</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/imgs/fav.svg">
+    <!-- required css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/leaflet.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- header -->
+    <nav class="header">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="logo">
+                <a href="index.html"><img src="assets/imgs/logo.svg"></a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li class="nav-link">
+                        <a class="home active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a class="about" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-link">
+                        <a class="features" href="#features">Features</a>
+                    </li>
+                    <li class="nav-link">
+                        <a class="contact-us" href="#contact-us">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="btns d-flex gap-3">
+                <a class="btn" href="#i">Get Started</a>
+                <button class="btn toogler">
+                    <i class="fa-sharp fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- main-wrapper -->
+    <main class="content">
+        <!-- hero section -->
+        <section id="home" class="hero-section sec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-12 content-wrap" data-aos="fade-right" data-aos-duration="500">
+                        <h1>
+                            Welcome to Home Masterplane: Your Ultimate Roofing Solution
+                        </h1>
+                        <p>
+                            download now and be warmer...!
+                        </p>
+                        <div class="btns">
+                            <a href="#!">
+                                <img src="assets/imgs/app-store.svg" alt="app-store">
+                            </a>
+                            <a href="#!">
+                                <img src="assets/imgs/google-play.svg" alt="google-play">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12 img-wrap">
+                        <div class="mockup" data-aos="fade-left" data-aos-duration="500">
+                            <img id="splash" src="assets/imgs/mouckup-sp.svg" alt="mouckup">
+                            <img id="splash2" src="assets/imgs/mouckup-sp2.svg" alt="mouckup">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- statics -->
+        <section class="statics">
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <div class="about-description" data-aos="fade-right" data-aos-duration="500">
+                            <h2>
+                                Elevate Your Roofing Experience
+                            </h2>
+                            <p>
+                                Are you ready to embark on a worry-free roofing journey? RoofGuard is here to protect
+                                your home, your investment, and your peace of mind. Discover a world of innovative
+                                roofing and water-proofing solutions at your fingertips.
+                            </p>
+                            <ul>
+                                <li>🏠 Residential Roofing</li>
+                                <li>🏢 Commercial Roofing</li>
+                                <li>💧 Water-Proofing</li>
+                                <li>🌧️ Roof Repairs</li>
+                                <li>🏗️ New Roof Installation</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12 d-flex align-items-center justify-content-center">
+                        <div data-aos="fade-left" data-aos-duration="500">
+                            <div class="img">
+                                <img src="assets/imgs/about.jpeg" alt="">
+                                <div class="thumb">
+                                    <img src="assets/imgs/wrench.svg" alt="">
+                                    <p>RAISE THE ROOF</p>
+                                    <h6>Dry inside and satisfied</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 features sec" id="features">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-6 p-lg-3 p-2">
+                            <div class="statics-card" data-aos="fade-up" data-aos-duration="500">
+                                <img src="assets/imgs/worker.svg" alt="downloads">
+                                <h4>Expert Craftsmen</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 p-lg-3 p-2">
+                            <div class="statics-card" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
+                                <img src="assets/imgs/install.svg" alt="star">
+                                <div class="d-flex align-content-center gap-2">
+                                    <h4>Roof Installation</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 p-lg-3 p-2">
+                            <div class="statics-card" data-aos="fade-up" data-aos-delay="400" data-aos-duration="500">
+                                <img src="assets/imgs/brooken-roof.svg" alt="driver">
+                                <div class="d-flex align-content-center gap-2">
+                                    <h4>Roof Repairing</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-6 p-lg-3 p-2">
+                            <div class="statics-card" data-aos="fade-up" data-aos-delay="600" data-aos-duration="500">
+                                <img src="assets/imgs/app.svg" alt="Ride Completion">
+                                <div class="d-flex align-content-center gap-2">
+                                    <h4>User-Friendly App</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  appImgs -->
+        <section class="appImgs container">
+            <div class="sectionTitle">
+                <h2>App in Action</h2>
+                <p> Visualize Excellence: Our Roofing & Water-Proofing App </p>
+            </div>
+            <div class="swiper phoneImgs">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="assets/imgs/1.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/imgs/2.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/imgs/3.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/imgs/4.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/imgs/5.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/imgs/6.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/imgs/7.png" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="assets/imgs/8.png" />
+                    </div>
+                </div>
+                <img src="assets/imgs/frame.png" class="frame" alt="">
+            </div>
+        </section>
+        <!-- faq section -->
+        <!-- <section class="faq">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-12 mb-5 mb-lg-0 d-flex align-items-center justify-content-center ">
+                        <img src="assets/imgs/faq.svg" alt="faq">
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="accordion" id="accordionExample" data-aos="fade-left" data-aos-duration="500">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        What is Gymat?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Gymat is an all-in-one fitness app designed to connect you with the best
+                                            gyms, health clubs, and spas in your area, providing you with a
+                                            comprehensive fitness experience.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        How do I sign up for Gymat?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Signing up for Gymat is simple! Just download the app from your app store,
+                                            create an account, and you're ready to explore fitness options near you.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Is Gymat available on both iOS and Android?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Yes, Gymat is available for both iOS and Android devices, ensuring everyone
+                                            can access their fitness journey conveniently.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        How can I find gyms and health clubs near me?
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Gymat uses your location to show you a list of nearby gyms, health clubs,
+                                            and spas. You can filter by distance, facilities, and more.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        Can I book classes or sessions through Gymat?
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Yes, Gymat allows you to easily book classes, training sessions, and spa
+                                            appointments directly through the app.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        What types of fitness classes are offered?
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Gymat partners with a variety of facilities, offering classes such as yoga,
+                                            HIIT, spinning, and more. Check the app for specific offerings at each
+                                            location.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSeven">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSeven" aria-expanded="false"
+                                        aria-controls="collapseSeven">
+                                        Can I track my fitness progress using Gymat?
+                                    </button>
+                                </h2>
+                                <div id="collapseSeven" class="accordion-collapse collapse"
+                                    aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>
+                                            Absolutely! Gymat lets you track your workouts, set fitness goals, and
+                                            monitor your progress over time.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- contact-us section -->
+        <section class="contact-us sec" id="contact-us">
+            <h2> Contact Us</h2>
+            <p class="text-center">
+                A full support team at your service, do not hesitate to inquire about anything
+            </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <form action="" data-aos="fade-right" data-aos-duration="500">
+                            <input type="text" placeholder="Full Name" name="name" id="name">
+                            <input type="email" placeholder="Email Address" name="email" id="email">
+                            <input type="text" placeholder="Subject" name="subject" id="subject">
+                            <textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                    <div class="col-lg-6 col-12 map-area" style="height: 450px;" data-aos="fade-left"
+                        data-aos-duration="500">
+                        <div class="img w-100">
+                            <img src="assets/imgs/contact.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- download -->
+        <section class="download-app">
+            <h2>Get the App</h2>
+            <p>Seal the Deal: Download the Home Masterplan App Today</p>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-12">
+                        <div class="mouckups">
+                            <img id="right" src="assets/imgs/down-mockup.svg" alt="" data-aos="fade-right"
+                                data-aos-duration="500" data-aos-delay="500">
+                            <img id="center" src="assets/imgs/down-mocup2.svg" alt="" data-aos="fade-up"
+                                data-aos-duration="500">
+                            <img id="left" src="assets/imgs/down-mocup3.svg" alt="" data-aos="fade-left"
+                                data-aos-duration="500" data-aos-delay="500">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 flex-lg-row flex-column  d-flex justify-content-between align-items-center footer">
+                    <a class="logo" href="index.html">
+                        <img src="assets/imgs/fav.svg" alt="logo">
+                    </a>
+                    <div class="copy">
+                        <p>Copyright © 2023 Home Masterplane All rights reserved</p>
+                    </div>
+                    <ul class="social">
+                        <li>
+                            <a href="#!">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/leaflet.js"></script>
+<script src="assets/js/app.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</html>
