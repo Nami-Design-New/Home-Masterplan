@@ -213,7 +213,7 @@ a {
 }
 @media (max-width: 768px) {
   .content .hero-section .mockup #splash {
-    bottom: 35%;
+    bottom: 46%;
   }
 }
 @media (max-width: 576px) {
@@ -238,7 +238,7 @@ a {
 }
 @media (max-width: 768px) {
   .content .hero-section .mockup #splash2 {
-    bottom: 30%;
+    bottom: 38%;
   }
 }
 @media (max-width: 576px) {
@@ -289,7 +289,7 @@ a {
 }
 @media (max-width: 576px) {
   .content .hero-section .content-wrap .btns img {
-    max-height: 52px;
+    max-height: 44px;
   }
 }
 .content .statics {
@@ -300,6 +300,11 @@ a {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+@media (max-width: 576px) {
+  .content .statics .about-description {
+    margin-bottom: 46px;
+  }
 }
 .content .statics .about-description h2 {
   color: #000000;
@@ -356,6 +361,14 @@ a {
   flex-direction: column;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
 }
+@media (max-width: 576px) {
+  .content .statics .img .thumb {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 240px;
+    bottom: -70px;
+  }
+}
 .content .statics .img .thumb img {
   max-height: 32px;
 }
@@ -395,6 +408,11 @@ a {
   text-align: center;
   margin: 0;
   color: #000000;
+}
+@media (max-width: 576px) {
+  .content .statics .statics-card h4 {
+    font-size: 20px;
+  }
 }
 .content .statics .statics-card p {
   color: #ed5a67;
@@ -701,6 +719,8 @@ a {
   text-align: center;
 }
 .content .contact-us p {
+  padding: 0 16px;
+  line-height: 26px;
   text-align: center;
   margin: 0 auto;
   color: #ed5a67;
@@ -770,6 +790,8 @@ a {
   text-align: center;
   margin: 0 auto;
   color: #ed5a67;
+  padding: 0 16px;
+  line-height: 26px;
   font-weight: 600;
   font-size: 14px;
 }
