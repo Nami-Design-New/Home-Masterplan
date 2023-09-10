@@ -68,3 +68,5 @@ var phoneImgs = new Swiper(".phoneImgs", {
     prevEl: ".appSliderPrev",
   },
 });
+// aos
+AOS.init();

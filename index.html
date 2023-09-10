@@ -19,7 +19,7 @@
     <nav class="header">
         <div class="container d-flex align-items-center justify-content-between">
             <div class="logo">
-                <a href="index.html"><img src="assets/imgs/logo.svg"></a>
+                <a href="index.html"><img src="assets/imgs/logoH.svg"></a>
             </div>
             <div class="nav-links">
                 <ul>
@@ -30,19 +30,16 @@
                         <a class="about" href="about.html">About Us</a>
                     </li>
                     <li class="nav-link">
-                        <a class="features" href="#features">Features</a>
+                        <a class="features" href="index.html#features">Features</a>
                     </li>
                     <li class="nav-link">
-                        <a class="contact-us" href="#contact-us">Contact us</a>
+                        <a class="contact-us" href="index.html#contact-us">Contact us</a>
                     </li>
                 </ul>
             </div>
-            <div class="btns d-flex gap-3">
-                <a class="btn" href="#i">Get Started</a>
-                <button class="btn toogler">
-                    <i class="fa-sharp fa-solid fa-bars"></i>
-                </button>
-            </div>
+            <button class="btn toogler">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+            </button>
         </div>
     </nav>
     <!-- main-wrapper -->
@@ -51,26 +48,32 @@
         <section id="home" class="hero-section sec">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-12 content-wrap" data-aos="fade-right" data-aos-duration="500">
-                        <h1>
-                            Welcome to Home Masterplane: Your Ultimate Roofing Solution
-                        </h1>
-                        <p>
-                            download now and be warmer...!
-                        </p>
-                        <div class="btns">
-                            <a href="#!">
-                                <img src="assets/imgs/app-store.svg" alt="app-store">
-                            </a>
-                            <a href="#!">
-                                <img src="assets/imgs/google-play.svg" alt="google-play">
-                            </a>
+                    <div class="col-lg-6 col-12">
+                        <div class="content-wrap">
+                            <h1 data-aos="fade-up" data-aos-duration="500">
+                                Welcome to Home Masterplane
+                                <br>
+                                Your Ultimate Roofing Solution
+                            </h1>
+                            <p data-aos="fade-up" data-aos-duration="800">
+                                download now and Fix your Home...!
+                            </p>
+                            <div class="btns" data-aos="fade-up" data-aos-duration="1000">
+                                <a href="#!">
+                                    <img src="assets/imgs/app-store.svg" alt="app-store">
+                                </a>
+                                <a href="#!">
+                                    <img src="assets/imgs/google-play.svg" alt="google-play">
+                                </a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-12 img-wrap">
-                        <div class="mockup" data-aos="fade-left" data-aos-duration="500">
-                            <img id="splash" src="assets/imgs/mouckup-sp.svg" alt="mouckup">
-                            <img id="splash2" src="assets/imgs/mouckup-sp2.svg" alt="mouckup">
+                    <div class="col-lg-6 col-12">
+                        <div class="mockup">
+                            <img src="assets/imgs/mouckup-sp.svg" data-aos="fade-left" data-aos-duration="500"
+                                alt="mouckup">
+                            <img src="assets/imgs/mouckup-sp2.svg" data-aos="fade-left" data-aos-duration="1000"
+                                alt="mouckup">
                         </div>
                     </div>
                 </div>
@@ -78,10 +81,10 @@
         </section>
         <!-- statics -->
         <section class="statics">
-            <div class="container mb-5">
+            <div class="container my-5">
                 <div class="row">
                     <div class="col-lg-6 col-12">
-                        <div class="about-description" data-aos="fade-right" data-aos-duration="500">
+                        <div class="about-description" data-aos="fade-down" data-aos-duration="500">
                             <h2>
                                 Elevate Your Roofing Experience
                             </h2>
@@ -100,7 +103,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-12 d-flex align-items-center justify-content-center">
-                        <div data-aos="fade-left" data-aos-duration="500">
+                        <div data-aos="fade-down" data-aos-duration="500">
                             <div class="img">
                                 <img src="assets/imgs/about.jpeg" alt="">
                                 <div class="thumb">
@@ -113,7 +116,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mt-5 features sec" id="features">
+            <div class="features sec" id="features">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-3 col-6 p-lg-3 p-2">
@@ -327,10 +330,12 @@
         </section> -->
         <!-- contact-us section -->
         <section class="contact-us sec" id="contact-us">
-            <h2> Contact Us</h2>
-            <p class="text-center">
-                A full support team at your service, do not hesitate to inquire about anything
-            </p>
+            <div class="sectionTitle">
+                <h2> Contact Us</h2>
+                <p class="text-center">
+                    A full support team at your service, do not hesitate to inquire about anything
+                </p>
+            </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-12">
@@ -353,8 +358,10 @@
         </section>
         <!-- download -->
         <section class="download-app">
-            <h2>Get the App</h2>
-            <p>Seal the Deal: Download the Home Masterplan App Today</p>
+            <div class="sectionTitle">
+                <h2>Get the App</h2>
+                <p>Seal the Deal: Download the Home Masterplan App Today</p>
+            </div>
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-12">
@@ -412,8 +419,5 @@
 <script src="assets/js/main.js"></script>
 <script src="assets/js/leaflet.js"></script>
 <script src="assets/js/app.js"></script>
-<script>
-    AOS.init();
-</script>
 
 </html>
