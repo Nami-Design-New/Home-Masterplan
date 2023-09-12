@@ -186,6 +186,7 @@ a {
         overflow: hidden;
         @media (max-width: 576px) {
           padding: 32px 24px;
+          height: calc(120vh - 100px);
         }
       }
     }
@@ -196,6 +197,9 @@ a {
       isolation: isolate;
       transform: translateY(100px);
       justify-content: center;
+      @media (max-width: 576px) {
+        transform: translateY(50px);
+      }
       img {
         width: 60%;
         min-width: 220px;
@@ -212,7 +216,7 @@ a {
       flex-direction: column;
       gap: 16px;
       h1 {
-        font-size: 30px;
+        font-size: 28px;
         font-weight: bold;
         color: $white-color;
         @media (max-width: 992px) {
@@ -231,10 +235,13 @@ a {
         display: flex;
         gap: 16px;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         img {
           height: 52px;
+        }
+        @media (max-width: 768px) {
+          justify-content: center;
         }
       }
     }
@@ -307,14 +314,12 @@ a {
         flex-direction: column;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 4px;
         border-radius: 24px;
-        @media screen and (max-width:768px) {
+        @media screen and (max-width: 768px) {
           left: 50%;
           transform: translateX(-50%);
           width: 240px;
           bottom: -70px;
-
         }
-
         img {
           max-height: 32px;
         }
@@ -711,8 +716,7 @@ a {
         }
         @media (max-width: 576px) {
           transform: translateX(-100%) rotate(5deg);
-                    max-width: 40%;
-
+          max-width: 40%;
         }
       }
       #left {
@@ -728,8 +732,7 @@ a {
         }
         @media (max-width: 576px) {
           transform: translateX(0%) rotate(-5deg);
-                    max-width: 40%;
-
+          max-width: 40%;
         }
       }
     }
@@ -853,10 +856,8 @@ footer {
     }
   }
 }
-
 .sectionTitle {
   text-align: center;
-
   h2 {
     text-transform: uppercase;
     color: #000000;

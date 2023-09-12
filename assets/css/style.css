@@ -175,6 +175,7 @@ a {
 @media (max-width: 576px) {
   .content .hero-section .container .row {
     padding: 32px 24px;
+    height: calc(120vh - 100px);
   }
 }
 .content .hero-section .mockup {
@@ -184,6 +185,11 @@ a {
   isolation: isolate;
   transform: translateY(100px);
   justify-content: center;
+}
+@media (max-width: 576px) {
+  .content .hero-section .mockup {
+    transform: translateY(50px);
+  }
 }
 .content .hero-section .mockup img {
   width: 60%;
@@ -201,7 +207,7 @@ a {
   gap: 16px;
 }
 .content .hero-section .content-wrap h1 {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
   color: #fff;
 }
@@ -224,11 +230,16 @@ a {
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 .content .hero-section .content-wrap .btns img {
   height: 52px;
+}
+@media (max-width: 768px) {
+  .content .hero-section .content-wrap .btns {
+    justify-content: center;
+  }
 }
 .content .statics {
   margin-top: 80px;
